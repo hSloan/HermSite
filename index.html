@@ -1,0 +1,271 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">  
+  <title>HERM App Dev and Research</title>  
+  <link type="text/css" rel="stylesheet" href="base.css"/> 
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="functions.js"></script>
+</head>
+
+<body>
+
+<div class="mainLogo">
+  <img src='img/HermHeader.png'/>
+</div>
+<div class="menu-bar fixed full tl p0">
+  <div class="menu">
+    <ul>
+      <li class="link relative tl block fl" id="link-1">WHO IS HERM?</li>
+      <li class="link relative tl block fl" id="link-2">WEB SERVICE</li>
+      <li class="link relative tl block fl" id="link-3">SOCIAL MEDIA</li>
+      <li class="link relative tl block fl" id="link-4">LOGIN</li>
+      <li class="link relative tl block fl" id="link-5">CONTACT US</li>
+    </ul>
+  </div>
+</div>
+  
+<div class="content-container absolute bl block full">    
+  <div class="content">
+
+    <div class="close-box">
+      <a class="close-classic"></a>
+    </div>
+    
+    <div id="content-1">
+      <div class="content-text">
+        <div class="arrow-container round">
+        <div class="clear"></div>
+        </div>
+        <h1>Who is HERM?</h1>
+        <p>HERM is a helpful creature who does what ever he can for you from within a shell. His magic shell was passed down to him by Lord Linus Torvalds after making a vow to create helpful and logical ways to help humans excel in everyday life and business.</p>
+        <p>HERM, as an entity, is a software engineering company dedicated to providing technological services for small, private, and
+independently owned businesses. Some of the services provided include web development, software
+development, application development, database management, and server maintenance.</p>
+      </div>
+
+
+      <!--<div class="slide block bl full m0 p0" id="slide-1">
+        
+      </div>-->
+
+
+      <div class="content-text">
+        <h2>Every Hero Needs a Sidekick, Every Shell Needs a HERM</h2>
+        <p>If you need a technological hand in making your ideas and dreams come true. Request a Herm to help with the complicated computer stuff so you can focus on your business. Herm does not mind preparing reports, performing data analysis, among other things to help you make smart business decisions based on data reports.</p>
+      </div>
+
+    </div>
+
+    <div id="content-2">
+      <div class="content-text">
+        <div class="arrow-container round">
+        <div class="clear"></div>
+        </div>
+        <h1>NEED A WEBSITE?</h1>
+        <p>Herm would love hear from you! Please fill out the form below and Herm will email you back a confirmation email with additional details to inform you that your project submission was received.</p>
+      </div>
+
+      <div class="content-text">        
+       <div id="container">
+        <div id="form_name">
+            <form name="form" class="form">
+                <input type="text" name="Name" value="" placeholder="First Name" class="input_name" >
+                <input type="text" name="LastName" value="" placeholder="Last Name" class="input_name" >
+                <input type="text" name="Email" value="" placeholder="Your Email" class="input">
+                <input type="text" name="phoneNum" placeholder="Phone Number" class="input">
+                <input type="text" name="company" placeholder="Company Name" class="input">
+                <input type="text" name="address" placeholder="Address" class="input">
+                <textarea name="comment" rows="5" cols="40" placeholder="Description" class="input"></textarea>
+                <div>
+                    <div class="yesNo">
+                        <label for="">Do you already have a host?</label>
+                        <label>Yes <input type="radio" name="yesHost">
+                        <label>No <input type="radio" name="noHost"></label>
+                    </div>
+
+                    <div class="yesNo">
+                         <label for="">Do you already have a domain? </label>
+                        <label>Yes <input type="radio" name="yesDomain">
+                        <label>No <input type="radio" name="noDomain"></label>
+                    </div>
+                    <div class="yesNo">
+                     <label for="">Do you have social media ?</label>
+                        <label>Yes <input type="radio" name="yesDomain">
+                        <label>No <input type="radio" name="noDomain"></label>
+                    </div>
+
+                    <input id="submit_button" type="submit" value="Upload Image" name="submit" class="regSubmit">
+                </div>
+            </form>
+        </div>
+    </div>
+ 
+      </div>
+
+    </div>
+
+
+
+    <div id="content-3">
+      <div class="content-text">
+        <div class="arrow-container round">
+        <div class="clear"></div>
+        </div>
+        <h1>SOCIAL MEDIA MANAGEMENT</h1>
+        <p>Do you need help managing your social media? Being on top of your game with Social Media can help stimulate clients for your business or help acquire fans if you are an aspiring musician, actor, or artist. HERM would like to help make you popular amongst cyber friends and colleagues.</p>
+      </div>
+
+
+      <div class="slide block bl full m0 p0" id="slide-3">
+      </div>
+
+
+      <div class="content-text">
+        <form>
+         <ul>
+          <li>Choose social media type: <label>Instagram <input type="radio" name="username"></label></li>
+          <li><label>Name <input type="text" name="username"></label></li>
+          <li><label>Company Name <input type="text" name="username"></label></li>
+          <li><label>Username <input type="text" name="username"></label></li>
+          <li><label>Password <input type="text" name="username"></label></li>
+         </ul>
+        </form>
+      </div>
+    </div>
+
+    <div id="content-4">
+      <div class="content-text">
+        <div class="arrow-container round">
+        <div class="clear"></div>
+        </div>
+        <h1>LOGIN</h1>
+          <form class="form-register" method="post" action="#">
+
+            <div class="form-register-with-email">
+
+                <div class="form-white-background">
+
+                    <div class="form-title-row">
+                        <h1>Create an account</h1>
+                    </div>
+
+                    <div class="form-row">
+                        <label>
+                            <span>Name</span>
+                            <input type="text" name="name">
+                        </label>
+                    </div>
+
+                    <div class="form-row">
+                        <label>
+                            <span>Email</span>
+                            <input type="email" name="email">
+                        </label>
+                    </div>
+
+                    <div class="form-row">
+                        <label>
+                            <span>Password</span>
+                            <input type="password" name="password">
+                        </label>
+                    </div>
+
+                    <div class="form-row">
+                        <label class="form-checkbox">
+                            <input type="checkbox" name="checkbox" checked>
+                            <span>I agree to the <a href="#">terms and conditions</a></span>
+                        </label>
+                    </div>
+
+                    <div class="form-row">
+                        <button type="submit">Register</button>
+                    </div>
+
+                </div>
+
+                <a href="#" class="form-log-in-with-existing">Already have an account? Login here &rarr;</a>
+
+            </div>
+
+            <div class="form-sign-in-with-social">
+
+                <div class="form-row form-title-row">
+                    <span class="form-title">Sign in with</span>
+                </div>
+
+                <a href="#" class="form-google-button">Google</a>
+                <a href="#" class="form-facebook-button">Facebook</a>
+                <a href="#" class="form-twitter-button">Twitter</a>
+
+            </div>
+
+        </form>
+
+      </div>
+      
+      <div class="slide block bl full m0 p0" id="slide-4">
+      </div>
+
+      <div class="content-text">
+      </div>
+      
+        <div class="block full m0 p0" id="map">
+          <script src='https://maps.googleapis.com/maps/api/js?key=&sensor=false&extension=.js'></script> 
+          <div id="demodemo"></div>
+        </div>
+      
+    </div>
+
+    <div id="content-5">
+      <div class="content-text">
+        <div class="arrow-container round">
+        <div class="clear"></div>
+        </div>
+        <h1>Put the Shell to Your Ear, Hear the Ocean?</h1>
+        <p>Mouodam amore patriae, qui me amor et subvenire olim impendentibus periculis maximis cum dimicatione capitis, et rursum, cum omnia tela undique esse intenta in patriam viderem, subire coegit atque excipere unum pro universis. Hic me meus in rem publicam animus pristinus ac perennis cum C. Caesare reducit, reconciliat, restituit in gratiam.</p>
+      </div>
+
+
+      <div class="slide block bl full m0 p0" id="slide-5">
+      </div>
+
+
+      <div class="content-text">
+        <h2>SEND A MESSAGE</h2>
+        <p>Ardeo, mihi credite, Patres conscripti (id quod vosmet de me existimatis et facitis ipsi) incredibili quodam amore patriae, qui me amor et subvenire olim impendentibus periculis maximis cum dimicatione capitis, et rursum, cum omnia tela undique esse intenta in patriam viderem, subire coegit atque excipere unum pro universis. Hic me meus in rem publicam animus pristinus ac perennis cum C. Caesare reducit, reconciliat, restituit in gratiam.</p>
+      </div>
+    </div>
+    
+    <div class="scroller">
+      <!--<div class="scroll-arrow" id="scrollleft">
+      </div>
+      <div class="scroll-arrow" id="scrollright">
+      </div>
+      <div class="clear"></div>-->
+      <img src="img/HermShell1.png"/>
+    </div>  
+  </div>
+</div> 
+  
+<div class="footer block bl fixed">
+        Click one of the tabs above to learn more. 
+</div>
+<!--<div class="wrapper">
+        <ul class="bg-bubbles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        </ul>
+      </div>-->
+
+</body>
+</html>
