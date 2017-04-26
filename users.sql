@@ -8,9 +8,12 @@ CREATE TABLE Users (
 );
 
 CREATE TABLE  Post (
+  postID INT NOT NULL PRIMARY KEY AUTO_INCREMENT, 
+  username VARCHAR(20) NOT NULL,
   userID INT NOT NULL REFERENCES Users(userID),
   caption VARCHAR(140) NOT NULL, 
-  time DATETIME,
+  postDay DATETIME,
+  uploadTime DATETIME,
   types VARCHAR(10) NOT NULL REFERENCES Media(types),
   path VARCHAR(80) NOT NULL
 );
