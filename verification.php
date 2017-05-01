@@ -1,4 +1,5 @@
 <?php
+
 $servername = "localhost";
 $username = "herm";
 $password = "nagrus9";
@@ -14,16 +15,18 @@ if ($conn->connect_error) {
 }
 echo "Connected successfully";
 
-$username = $_GET['name'];
-$email = $_GET['email'];
-$password = $_GET['password'];
+$username = mysql_real_escape_string($_POST['name']);
+$email = mysql_real_escape_string($_POST['email']);
+$password = mysql_real_escape_string($_POST['password']);
+$fname  = mysql_real_escape_string($_POST['fname']);
+$lname = mysql_real_escape_string($_POST['lname']);
 
-function createUser ($username, $email, $password) {
+function createUser ($u, $e, $p, $f, $l) {
   //Insert statement 
-  $insertUser = "INSERT INTO " . $tblName . " VALUES (". $username . $email . $password . ")";
+  $insertUser = "INSERT INTO " . $tblName . " VALUES (". $u . $e . $p . $f . $l .")";
+  mysql_query($insertUser);
 }
 
-//TODO create a function to be used upon pressing the submit button. 
-
+createUser($username, $email, $password, $fname, $lname); 
 $conn -> close();
 ?>
