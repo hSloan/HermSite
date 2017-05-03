@@ -23,6 +23,13 @@
       </ul>
     </div>
   </div>
+  <div class="content-container absolute bl block full">
+    <div class="content">
+      <div class="close-box">
+        <a class="close-classic"></a>
+      </div>
+    </div>
+  </div>
 <?php
 
 function connect () {
@@ -75,7 +82,7 @@ function escape($value) {
 
 function createUser ($u, $e, $p, $f, $l) {
   //Insert statement 
-  $insertUser = query("INSERT INTO `users` VALUES (". $u . "," . $e . "," . $p . ",". $f . "," . $l .")");
+  $insertUser = query("INSERT INTO `users` (`username`, `email`, `password`, `fname`, `lname`) VALUES (". $u . "," . $e . "," . $p . ",". $f . "," . $l .")");
   $result = mysql_query($insertUser);
   if ($result === false) {
     echo "<p>New User Not Added!</p>"; 
