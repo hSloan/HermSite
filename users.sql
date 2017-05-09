@@ -5,6 +5,7 @@ CREATE TABLE Users (
   fname VARCHAR(30) NOT NULL,
   lname VARCHAR(30) NOT NULL,
   email VARCHAR(40) NOT NULL
+  PRIMARY KEY (username)
 );
 
 CREATE TABLE  Post (
