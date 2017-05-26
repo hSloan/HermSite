@@ -1,0 +1,16 @@
+.tabs {
+    list-style-type: none;
+    display: -webkit-box;
+}
+.navbar-right {
+    position: relative;
+    float: right;
+}
+
+.navbar-left {
+
+}
+
+#tab {
+    margin: 10px;
+}
