@@ -1,16 +1,40 @@
 .tabs {
     list-style-type: none;
     display: -webkit-box;
+    font-family: 'Raleway';
+    padding: 0px;
 }
 .navbar-right {
-    position: relative;
+    position: static;
     float: right;
 }
 
 .navbar-left {
-
+    display: -webkit-inline-box;
 }
 
 #tab {
-    margin: 10px;
+    font-size: 3.3vmin;
+    margin: 4vmin 5vmin;
 }
+
+.logo-text {
+    font-family: 'Pacifico', cursive;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+/* unvisited link */
+a:link {
+    color: white;
+}
+/* mouse over link */
+a:hover {
+    color: green;
+}
+/* selected link */
+a:active {
+    color: none;
+} 
