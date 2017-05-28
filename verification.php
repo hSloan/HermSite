@@ -82,6 +82,11 @@ function escape($value) {
 
 function createUser ($u, $e, $p, $f, $l) {
   //Insert statement 
+  echo "$u"
+  echo "$e"
+  echo "$p"
+  echo "$f"
+  echo "$l"
   $insertUser = query("INSERT INTO `users` (`username`, `email`, `password`, `fname`, `lname`) VALUES (". $u . "," . $e . "," . $p . ",". $f . "," . $l .")");
   $result = mysql_query($insertUser);
   if ($result === false) {
