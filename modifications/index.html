@@ -6,6 +6,7 @@
         <link rel="stylesheet" type="text/css" href="base.css">
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <div class="navbar_container">
@@ -19,7 +20,7 @@
                     <li class="tab-social" id="tab"><a href="">APP SERVICES</a></li>
                     <!-- <li class="tab-social" id="tab"><a href="">SOCIAL MEDIA</a></li> -->
                     <li class="tab-contact" id="tab"><a href="">CONTACT US</a></li>
-                    <li class="tab-login" id="tab"><a href="">LOGIN</a></li>
+                    <!-- <li class="tab-login" id="tab"><a href="">LOGIN</a></li> -->
                     <!-- Do not need, will be at bottom of front page <li class="tab-about" id="tab">ABOUT US</li> -->
                 </ul>
             </div>    
@@ -32,21 +33,38 @@
                 <img class="banner-image "src="https://upload.wikimedia.org/wikipedia/commons/0/01/New_york_city_skyline_panorama.jpg">
             </div>
 
-            <div class="about-us">
-                <div class="seperator"></div>
-                <h1 id="banner-text">HERM</h1>
-                <h3 id="banner-text">Web and App Development</h3>
-                <div class="button-container">
-                    <input class="button" type="button" onclick="location.href='contact.htm';" value="Contact" />
-                    <input class="button" type="button" onclick="location.href='contact.htm';" value="Contact" />
+            <div class="panel">
+                <div style="margin: 3pc 0pc;">
+                    <h1 id="banner-text">HERM</h1>
+                    <h3 id="banner-text">Web and App Development</h3>
                 </div>
+                <div class="button-container" style="display: flex;margin: 40px 30px;">
+                    <input class="button" type="button" onclick="location.href='webServices.htm';" value="WEB SERVICES" />
+                    <input class="button" type="button" onclick="location.href='appServices.htm';" value="APP SERVICES" />
+                </div>
+            </div>
+            
+            <div class="panel-2">
+                <div class="seperator"></div>
+                <h3 id="banner-text" class="panel-2-header">About Us</h3>
+                <p id="banner-text" style="font-size: larger;">HERM is a software engineering company dedicated to providing technological services<br>for small, private, and independently owned businesses. Some of the services provided include <br>web development, software development, application development, database management, and automation.</p>
+                <input class="about-us" type="button" onclick="location.href='appServices.htm';" value="MORE ABOUT US" />
+                <div class="seperator"></div>
             </div>
         </div>
 
-        <div class="footer">
-            <div class="footer-container">
 
-            </div>
+        <div class="footer" style="padding: 3pc;">
+                <div class="footer-text">
+                    <p style="margin: 0 auto;display: table;">HERM Web and App Development</p>
+                    <div class="social-media">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </div>
+                </div>
+
         </div>
 
     </body>
