@@ -26,3 +26,14 @@ CREATE TABLE Media (
   loginName VARCHAR(40) NOT NULL, 
   loginPassword VARCHAR(40) NOT NULL
 );
+
+CREATE TABLE RequestService (
+  jobNo VARCHAR(14) NOT NULL,
+  requested TIMESTAMP,  
+  fname VARCHAR(30) NOT NULL, 
+  lname VARCHAR(30) NOT NULL, 
+  company VARCHAR(50) NOT NULL, 
+  email VARCHAR(40) NOT NULL,
+  projectType VARCHAR(20) CHECK(projectType IN ('website', 'application', 'social media')
+  PRIMARY KEY (jobNo)
+);
