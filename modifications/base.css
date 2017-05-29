@@ -142,3 +142,90 @@ a:active {
     color: whitesmoke;
     font-size: larger;
 }
+
+/**************Form Styling by Miguel and Jane*************************/
+
+.uploader_style {
+   margin: 2px 0px 5px 0px;
+}
+ul {
+   list-style-type: none;
+}
+.content-text {
+   display: inline;
+}
+.form-signin {
+   width: 430px;
+   height: 375px;
+   font-size: 16px;
+   font-weight: 300;
+   transition: opacity .5s ease, transform .5s ease;
+}
+.form-styling {
+   width: 100%;
+   padding-left: 5px;
+   height: 35px;
+   border: none;
+   border-radius: 10px;
+   margin-bottom: 20px;
+   background: rgba(152, 152, 152, 0.2);
+}
+#fileToUpload {
+   width: 100%;
+   height: 35px;
+   border: none;
+   border-radius: 10px;
+   margin-bottom: 0px;
+}
+
+/* use css below for registration.html*/
+
+* {
+   margin: 0px;
+   padding: 0px;
+}
+.form {
+   text-align: center;
+   padding: 30px 0px;
+}
+.yesNo {
+   margin: 10px 0px;
+}
+#container {
+   width: 550px;
+   background-color: rgba(250, 250, 252, .9);
+   margin: auto;
+   margin-top: 6pc;
+    margin-bottom: 9pc;
+   box-shadow: 0 0 3px #999;
+}
+#container_body {}
+.regSubmit {
+   background-color: #1a1919;
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 15px 0px 0px 0px;
+   cursor: pointer;
+   border-radius: 10px;
+}
+.regSubmit:hover {
+   /* Green */
+   color: green;
+}
+.input_name {
+   width: 208px;
+   padding: 5px;
+   font-size: 18px;
+   margin: 15px 0px;
+}
+.input {
+   width: 434px;
+   padding: 5px;
+   font-size: 18px;
+   margin: 15px 0px;
+}
