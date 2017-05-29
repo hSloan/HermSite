@@ -34,6 +34,7 @@ CREATE TABLE RequestService (
   lname VARCHAR(30) NOT NULL, 
   company VARCHAR(50) NOT NULL, 
   email VARCHAR(40) NOT NULL,
-  projectType VARCHAR(20) CHECK(projectType IN ('website', 'application', 'social media')
-  PRIMARY KEY (jobNo)
+  projectType VARCHAR(20), 
+  CONSTRAINT rs_check CHECK(projectType IN ('website', 'application', 'social media')), 
+  CONSTRAINT rspk PRIMARY KEY(jobNo)
 );
