@@ -50,6 +50,9 @@ a:hover {
 a:active {
     color: none;
 } 
+.logo-text-link:hover {
+    color: whitesmoke;
+}
 /* body div */
 
 .banner {
@@ -81,6 +84,16 @@ a:active {
     color: whitesmoke;
     padding: 40px;
 }
+
+.services-header {
+    margin: 2pc;
+    font-size: 5.4pc;
+}
+
+.services-text {
+    text-align: center;
+}
+
 /* button */
 
 
@@ -143,7 +156,7 @@ a:active {
     font-size: larger;
 }
 
-/**************Form Styling by Miguel and Jane*************************/
+/**************Forms************************/
 
 .uploader_style {
    margin: 2px 0px 5px 0px;
@@ -196,7 +209,7 @@ ul {
    background-color: rgba(250, 250, 252, .9);
    margin: auto;
    margin-top: 6pc;
-    margin-bottom: 9pc;
+    margin-bottom: 8pc;
    box-shadow: 0 0 3px #999;
 }
 #container_body {}
